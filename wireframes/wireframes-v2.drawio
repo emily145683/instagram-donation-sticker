@@ -1,0 +1,318 @@
+<mxfile host="65bd71144e">
+    <diagram id="v2-wireframe" name="Wireframe">
+        <mxGraphModel dx="422" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="500" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+
+                <!-- Screen 0: Age / Parental Consent -->
+                <mxCell id="s0-frame" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="80" width="170" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0-title" value="Confirm Your Age" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="95" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0-input" value="Enter age" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="140" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0-consenttext" value="If under 18: parental consent required" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="180" width="150" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0-consentbtn" value="Send Consent Request" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=11;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="45" y="235" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0-continuebtn" value="Continue" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=13;fontStyle=1;fillColor=#33a02c;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="45" y="295" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0-label" value="Screen 0: Age / Parental Consent (new)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="430" width="170" height="30" as="geometry"/>
+                </mxCell>
+
+                <!-- Screen 1 -->
+                <mxCell id="s1-frame" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="80" width="170" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="s1-photo" value="Photo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="255" y="95" width="140" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="s1-logo" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="220" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="s1-charityname" value="Charity Name" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="295" y="220" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="s1-donatebtn" value="Donate" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=15;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="255" y="265" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="s1-label" value="Screen 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="430" width="170" height="30" as="geometry"/>
+                </mxCell>
+
+                <!-- Screen 2 -->
+                <mxCell id="s2-frame" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="80" width="170" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2-header" value="Charity Name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="90" width="150" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2-fact" value="Fact" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="118" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2-infoicon" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios.iInfoIcon;fillColor=#8BbEff;fillColor2=#135Ec8;strokeColor=#ffffff;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="141" width="14" height="14" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2-infolink" value="Learn more" style="shape=rectangle;strokeColor=none;fillColor=none;linkText=;fontSize=10;fontColor=#0000ff;fontStyle=4;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="478" y="140" width="70" height="16" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2-amt3" value="£3" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iButton;strokeColor=#444444;fontColor=#ffffff;buttonText=;fontSize=9;fillColor=#dddddd;fillColor2=#3D5565;whiteSpace=wrap;align=center;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="163" width="150" height="16" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2-amt5" value="£5" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iButton;strokeColor=#444444;fontColor=#ffffff;buttonText=;fontSize=9;fillColor=#dddddd;fillColor2=#3D5565;whiteSpace=wrap;align=center;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="183" width="150" height="16" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2-amt10" value="£10" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iButton;strokeColor=#444444;fontColor=#ffffff;buttonText=;fontSize=9;fillColor=#dddddd;fillColor2=#3D5565;whiteSpace=wrap;align=center;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="203" width="150" height="16" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2-amtcustom" value="Custom Amount (new)" style="strokeWidth=1;html=1;shadow=0;dashed=1;shape=mxgraph.ios.iButton;strokeColor=#444444;fontColor=#ffffff;buttonText=;fontSize=9;fillColor=#f5a623;fillColor2=#3D5565;whiteSpace=wrap;align=center;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="223" width="150" height="16" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2-cardicon" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.credit_card;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="255" width="50" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2-walletpay" value="Apple Pay / Google Pay (new)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="518" y="255" width="92" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2-paynowbtn" value="Pay Now" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=13;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="300" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2-label" value="Screen 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="430" width="170" height="30" as="geometry"/>
+                </mxCell>
+
+                <!-- Screen 2a: In-app Web View -->
+                <mxCell id="s2a-frame" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="80" width="170" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2a-topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="90" width="150" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2a-backbtn" value="&lt; Back" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=9;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="675" y="94" width="45" height="17" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2a-address" value="charity.org" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+                    <mxGeometry x="725" y="90" width="90" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2a-content" value="Charity website content" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="125" width="150" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2a-label" value="Screen 2a: In-app Web View (new)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="430" width="170" height="30" as="geometry"/>
+                </mxCell>
+
+                <!-- Screen 2b: Processing -->
+                <mxCell id="s2b-frame" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="870" y="80" width="170" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2b-spinner" value="" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="930" y="200" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2b-text" value="Processing payment..." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="260" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2b-label" value="Screen 2b: Processing (new)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="870" y="430" width="170" height="30" as="geometry"/>
+                </mxCell>
+
+                <!-- Screen 2c: Payment Failed -->
+                <mxCell id="s2c-frame" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="1080" y="80" width="170" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2c-icon" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.delete;fillColor=#ff0000;strokeColor=#ffffff;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="1150" y="140" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2c-text" value="Payment Failed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="1090" y="185" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2c-retrybtn" value="Retry" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=13;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1095" y="230" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2c-cancelbtn" value="Cancel" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=13;fontStyle=1;fillColor=#999999;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1095" y="270" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2c-label" value="Screen 2c: Payment Failed (new)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="1080" y="430" width="170" height="30" as="geometry"/>
+                </mxCell>
+
+                <!-- Screen 3 -->
+                <mxCell id="s3-frame" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="1290" y="80" width="170" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="s3-closeicon" value="" style="verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.delete;fillColor=#ff0000;strokeColor=#ffffff;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="1298" y="88" width="14" height="14" as="geometry"/>
+                </mxCell>
+                <mxCell id="s3-successtext" value="Success" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="1330" y="88" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="s3-welcometext" value="Welcome to the (charity name) community" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1300" y="112" width="150" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="s3-card" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1305" y="185" width="140" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="s3-statstext" value="You and (value) others have donated £(value) today" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1310" y="190" width="130" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="s3-label" value="Screen 3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="1290" y="430" width="170" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="v2-flow" name="Flow diagram">
+        <mxGraphModel dx="506" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1400" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+
+                <mxCell id="n-start" value="Start" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+                    <mxGeometry x="170" y="20" width="100" height="30" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-agecheck" value="Is user age-verified or has parental consent to donate?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="90" width="140" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-start-agecheck" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-start" target="n-agecheck">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-blocked" value="Donation blocked / parental consent requested" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="110" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-agecheck-blocked" value="no" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-agecheck" target="n-blocked">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-stop-blocked" value="Stop" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+                    <mxGeometry x="440" y="210" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-blocked-stop" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-blocked" target="n-stop-blocked">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-screen1" value="Display Screen 1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="230" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-agecheck-screen1" value="yes" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-agecheck" target="n-screen1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-donatepressed" value="Donate button is pressed" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="320" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-screen1-donatepressed" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-screen1" target="n-donatepressed">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-s1tos2" value="Screen 1 changes to Screen 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="410" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-donatepressed-s1tos2" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-donatepressed" target="n-s1tos2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-infodecision" value="Does user press the info link?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="490" width="140" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-s1tos2-infodecision" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-s1tos2" target="n-infodecision">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-webview" value="In-app web view: charity website displayed" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="500" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-infodecision-webview" value="yes" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-infodecision" target="n-webview">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-back" value="User taps Back" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="600" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-webview-back" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-webview" target="n-back">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-back-infodecision" value="returns to Screen 2" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.9;entryDx=0;entryDy=0;" edge="1" parent="1" source="n-back" target="n-infodecision">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-amount" value="User selects a preset amount or enters a custom amount" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="640" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-infodecision-amount" value="no" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-infodecision" target="n-amount">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-paymethod" value="User chooses payment method (Card / Apple Pay / Google Pay)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="740" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-amount-paymethod" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-amount" target="n-paymethod">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-processing" value="Processing payment..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="840" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-paymethod-processing" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-paymethod" target="n-processing">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-paydecision" value="Payment successful?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="920" width="160" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-processing-paydecision" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-processing" target="n-paydecision">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-s2tos3" value="Screen changes from 2 to 3 (Success)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="1070" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-paydecision-s2tos3" value="yes" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-paydecision" target="n-s2tos3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-close" value="User presses close (X) on Screen 3" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="1150" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-s2tos3-close" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-s2tos3" target="n-close">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-stop-final" value="Stop" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+                    <mxGeometry x="180" y="1240" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-close-stop" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-close" target="n-stop-final">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-failed" value="Payment failed" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="940" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-paydecision-failed" value="no" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-paydecision" target="n-failed">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="n-retrydecision" value="Retry or cancel?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="1030" width="160" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-failed-retrydecision" style="edgeStyle=none;html=1;" edge="1" parent="1" source="n-failed" target="n-retrydecision">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="e-retrydecision-paymethod" value="retry" style="edgeStyle=none;html=1;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" edge="1" parent="1" source="n-retrydecision" target="n-paymethod">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-retrydecision-amount" value="cancel" style="edgeStyle=none;html=1;exitX=0;exitY=0.7;exitDx=0;exitDy=0;entryX=1;entryY=0.7;entryDx=0;entryDy=0;" edge="1" parent="1" source="n-retrydecision" target="n-amount">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,236 @@
+.app {
+  max-width: 470px;
+  margin: 0 auto;
+  min-height: 100%;
+  border-left: 1px solid var(--ig-border);
+  border-right: 1px solid var(--ig-border);
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--ig-border);
+  position: sticky;
+  top: 0;
+  background: var(--ig-bg);
+  z-index: 5;
+}
+
+.top-nav__logo {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 26px;
+}
+
+.top-nav__mock-badge {
+  font-size: 11px;
+  color: var(--ig-text-dim);
+  border: 1px solid var(--ig-border);
+  border-radius: 999px;
+  padding: 3px 8px;
+}
+
+.app__feed {
+  padding-bottom: 40px;
+}
+
+.stories-bar {
+  display: flex;
+  gap: 14px;
+  padding: 14px 16px;
+  overflow-x: auto;
+  border-bottom: 1px solid var(--ig-border);
+}
+
+.stories-bar__item {
+  background: none;
+  border: none;
+  color: var(--ig-text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 66px;
+  flex-shrink: 0;
+}
+
+.stories-bar__avatar {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px var(--ig-bg), 0 0 0 4px #dd2a7b;
+}
+
+.stories-bar__charity-dot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ffd200;
+  border: 2px solid var(--ig-bg);
+}
+
+.stories-bar__username {
+  font-size: 11px;
+  color: var(--ig-text-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 66px;
+}
+
+.feed-post {
+  border-bottom: 1px solid var(--ig-border);
+  padding-bottom: 12px;
+}
+
+.feed-post__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+}
+
+.feed-post__avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.feed-post__username {
+  font-weight: 600;
+  font-size: 14px;
+  flex: 1;
+}
+
+.feed-post__time {
+  font-size: 12px;
+  color: var(--ig-text-dim);
+}
+
+.feed-post__image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.feed-post__actions {
+  display: flex;
+  gap: 16px;
+  padding: 10px 16px;
+  font-size: 20px;
+}
+
+.feed-post__likes {
+  padding: 0 16px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.feed-post__caption {
+  padding: 0 16px;
+  font-size: 13px;
+}
+
+.story-viewer {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  max-width: 470px;
+  margin: 0 auto;
+}
+
+.story-viewer__progress {
+  display: flex;
+  gap: 4px;
+  padding: 8px 8px 0;
+}
+
+.story-viewer__progress-bar {
+  flex: 1;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.story-viewer__progress-fill {
+  height: 100%;
+  width: 0%;
+  background: #fff;
+}
+
+.story-viewer__progress-fill.is-complete {
+  width: 100%;
+}
+
+.story-viewer__progress-fill.is-active {
+  width: 100%;
+  animation: story-progress 5s linear;
+}
+
+@keyframes story-progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.story-viewer__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+}
+
+.story-viewer__avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.story-viewer__username {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  flex: 1;
+}
+
+.story-viewer__close {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.story-viewer__image {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+}
+
+.story-viewer__tap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  background: none;
+  border: none;
+}
+
+.story-viewer__tap--prev {
+  left: 0;
+}
+
+.story-viewer__tap--next {
+  right: 0;
+}
