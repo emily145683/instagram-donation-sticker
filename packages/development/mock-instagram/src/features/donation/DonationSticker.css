@@ -17,12 +17,16 @@
 .donation-sticker__logo {
   width: 26px;
   height: 26px;
+  flex: 0 0 26px;
+  min-width: 26px;
+  min-height: 26px;
   border-radius: 50%;
   background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 15px;
+  line-height: 1;
 }
 
 .donation-sticker__name {
