@@ -45,6 +45,7 @@ export const stories: StoryItem[] = [
     username: 'sam_travels',
     avatarGradient: 'linear-gradient(135deg,#833ab4,#fd1d1d)',
     imageGradient: 'linear-gradient(160deg,#11998e,#38ef7d)',
+    imageUrl: 'https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1200&h=2000&dpr=2',
   },
   {
     id: 'story-3',
@@ -90,7 +91,7 @@ export const feedPosts: FeedPost[] = [
     imageGradient: 'linear-gradient(160deg,#11998e,#38ef7d)',
     imageUrls: [
       'https://picsum.photos/seed/feed-travel-1/1080/1080',
-      'https://picsum.photos/seed/feed-travel-2/1080/1080',
+      'https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1080&fit=crop&dpr=2',
       'https://picsum.photos/seed/feed-travel-3/1080/1080',
     ],
     caption: 'Golden hour hits different 🌅',
@@ -104,7 +105,7 @@ export const feedPosts: FeedPost[] = [
     imageGradient: 'linear-gradient(160deg,#ff512f,#dd2476)',
     imageUrls: [
       'https://picsum.photos/seed/mia-craft-feed-1/1080/1080',
-      'https://picsum.photos/seed/mia-craft-feed-2/1080/1080',
+      'https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1080&fit=crop&dpr=2',
       'https://picsum.photos/seed/mia-craft-feed-3/1080/1080',
     ],
     caption: 'New piece finished today 🎨',
