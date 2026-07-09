@@ -47,15 +47,19 @@ export default function AmountScreen({
       </button>
 
       <div className="donation-amounts">
-        {PRESET_AMOUNTS.map((value) => (
-          <button
-            key={value}
-            className={`donation-amount-btn ${selectedAmount === value ? 'is-selected' : ''}`}
-            onClick={() => onSelectAmount(value)}
-          >
-            £{value}
-          </button>
-        ))}
+        {PRESET_AMOUNTS.map((value) => {
+          const impact = charity.impactStatements.find((i) => i.amount === value);
+          return (
+            <button
+              key={value}
+              className={`donation-amount-btn ${selectedAmount === value ? 'is-selected' : ''}`}
+              onClick={() => onSelectAmount(value)}
+            >
+              <span className="donation-amount-btn__value">£{value}</span>
+              {impact && <span className="donation-amount-btn__impact">{impact.description}</span>}
+            </button>
+          );
+        })}
         <div className={`donation-amount-btn donation-amount-btn--custom ${customAmount ? 'is-selected' : ''}`}>
           <span>£</span>
           <input

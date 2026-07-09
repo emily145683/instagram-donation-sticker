@@ -1,3 +1,9 @@
+export interface ImpactStatement {
+  amount: number;
+  /** e.g. "can fund a week of coastal plastic collection" */
+  description: string;
+}
+
 export interface Charity {
   id: string;
   name: string;
@@ -6,6 +12,7 @@ export interface Charity {
   fact: string;
   totalDonatedTodayGBP: number;
   othersDonatedToday: number;
+  impactStatements: ImpactStatement[];
 }
 
 export interface StoryItem {

@@ -191,6 +191,24 @@
   font-weight: 700;
   background: #fafafa;
   color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  text-align: left;
+}
+
+.donation-amount-btn__value {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.donation-amount-btn__impact {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #555;
+  white-space: normal;
 }
 
 .donation-amount-btn.is-selected {
@@ -198,8 +216,13 @@
   background: #e8f4ff;
 }
 
+.donation-amount-btn.is-selected .donation-amount-btn__impact {
+  color: #0068c2;
+}
+
 .donation-amount-btn--custom {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 4px;
 }

@@ -9,6 +9,11 @@ export const charities: Charity[] = [
     fact: 'Every £5 removes roughly 1kg of plastic from the ocean.',
     totalDonatedTodayGBP: 482,
     othersDonatedToday: 63,
+    impactStatements: [
+      { amount: 3, description: 'can fund a week of coastal plastic collection' },
+      { amount: 5, description: "can fund 10 days' worth of ocean plastic removal" },
+      { amount: 10, description: 'can fund a full beach cleanup session' },
+    ],
   },
   {
     id: 'youth-mind',
@@ -18,6 +23,11 @@ export const charities: Charity[] = [
     fact: '1 in 6 young people experience a mental health problem each year.',
     totalDonatedTodayGBP: 210,
     othersDonatedToday: 29,
+    impactStatements: [
+      { amount: 3, description: 'can fund a week of peer support chat access' },
+      { amount: 5, description: 'can fund 10 days of helpline support' },
+      { amount: 10, description: 'can fund a full counselling session' },
+    ],
   },
 ];
 

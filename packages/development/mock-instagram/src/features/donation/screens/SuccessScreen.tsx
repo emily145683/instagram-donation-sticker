@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import type { Charity } from '../../../types';
 
 interface Props {
@@ -9,6 +10,7 @@ interface Props {
 export default function SuccessScreen({ charity, amount, onClose }: Props) {
   const totalToday = charity.totalDonatedTodayGBP + amount;
   const othersToday = charity.othersDonatedToday;
+  const [shared, setShared] = useState(false);
 
   return (
     <div className="donation-screen donation-screen--success">
@@ -22,6 +24,13 @@ export default function SuccessScreen({ charity, amount, onClose }: Props) {
           You and {othersToday} others have donated £{totalToday} today
         </p>
       </div>
+      <button
+        className={`donation-btn donation-btn--full ${shared ? 'donation-btn--ghost' : 'donation-btn--secondary'}`}
+        onClick={() => setShared(true)}
+        disabled={shared}
+      >
+        {shared ? '✓ Shared to your story' : '📤 Reshare to your story'}
+      </button>
     </div>
   );
 }
