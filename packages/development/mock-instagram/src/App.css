@@ -113,8 +113,61 @@
 }
 
 .feed-post__image {
+  position: relative;
   width: 100%;
   aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.feed-post__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.feed-post__carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 20px;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+}
+
+.feed-post__carousel-btn--prev {
+  left: 10px;
+}
+
+.feed-post__carousel-btn--next {
+  right: 10px;
+}
+
+.feed-post__dots {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+}
+
+.feed-post__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.feed-post__dot.is-active {
+  background: #fff;
 }
 
 .feed-post__actions {

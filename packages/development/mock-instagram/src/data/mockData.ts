@@ -51,6 +51,7 @@ export const stories: StoryItem[] = [
     username: 'mia.makes',
     avatarGradient: 'linear-gradient(135deg,#fcb045,#fd1d1d)',
     imageGradient: 'linear-gradient(160deg,#ff512f,#dd2476)',
+    imageUrl: 'https://picsum.photos/seed/mia-craft-story/800/1400',
     charity: charities[1],
   },
   {
@@ -73,6 +74,11 @@ export const feedPosts: FeedPost[] = [
     username: 'jess.codes',
     avatarGradient: 'linear-gradient(135deg,#f58529,#dd2a7b)',
     imageGradient: 'linear-gradient(160deg,#2b5876,#4e4376)',
+    imageUrls: [
+      'https://picsum.photos/seed/feed-ocean-1/1080/1080',
+      'https://picsum.photos/seed/feed-ocean-2/1080/1080',
+      'https://picsum.photos/seed/feed-ocean-3/1080/1080',
+    ],
     caption: 'Beach cleanup this weekend 🌊',
     likes: 482,
     timeAgo: '2h',
@@ -82,6 +88,11 @@ export const feedPosts: FeedPost[] = [
     username: 'sam_travels',
     avatarGradient: 'linear-gradient(135deg,#833ab4,#fd1d1d)',
     imageGradient: 'linear-gradient(160deg,#11998e,#38ef7d)',
+    imageUrls: [
+      'https://picsum.photos/seed/feed-travel-1/1080/1080',
+      'https://picsum.photos/seed/feed-travel-2/1080/1080',
+      'https://picsum.photos/seed/feed-travel-3/1080/1080',
+    ],
     caption: 'Golden hour hits different 🌅',
     likes: 1204,
     timeAgo: '4h',
@@ -91,6 +102,11 @@ export const feedPosts: FeedPost[] = [
     username: 'mia.makes',
     avatarGradient: 'linear-gradient(135deg,#fcb045,#fd1d1d)',
     imageGradient: 'linear-gradient(160deg,#ff512f,#dd2476)',
+    imageUrls: [
+      'https://picsum.photos/seed/mia-craft-feed-1/1080/1080',
+      'https://picsum.photos/seed/mia-craft-feed-2/1080/1080',
+      'https://picsum.photos/seed/mia-craft-feed-3/1080/1080',
+    ],
     caption: 'New piece finished today 🎨',
     likes: 356,
     timeAgo: '6h',
