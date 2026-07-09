@@ -51,7 +51,7 @@ export default function DonationSticker({ charity, ageVerified, onAgeVerified }:
       <button className="donation-sticker" onClick={openFlow}>
         <span className="donation-sticker__logo">{charity.emoji}</span>
         <span className="donation-sticker__name">{charity.name}</span>
-        <span className="donation-sticker__cta">Donate</span>
+        <span className="donation-sticker__cta">Can you match me?</span>
       </button>
 
       {isOpen && (
