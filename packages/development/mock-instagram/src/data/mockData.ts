@@ -37,6 +37,7 @@ export const stories: StoryItem[] = [
     username: 'jess.codes',
     avatarGradient: 'linear-gradient(135deg,#f58529,#dd2a7b)',
     imageGradient: 'linear-gradient(160deg,#2b5876,#4e4376)',
+    imageUrl: 'https://picsum.photos/seed/ocean-cleanup/800/1400',
     charity: charities[0],
   },
   {

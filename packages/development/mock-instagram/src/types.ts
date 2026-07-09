@@ -20,6 +20,8 @@ export interface StoryItem {
   username: string;
   avatarGradient: string;
   imageGradient: string;
+  /** Optional real photo URL; falls back to imageGradient when not set. */
+  imageUrl?: string;
   charity?: Charity;
 }
 

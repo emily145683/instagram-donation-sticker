@@ -44,7 +44,18 @@ export default function StoryViewer({ stories, startIndex, onClose }: Props) {
         </button>
       </div>
 
-      <div className="story-viewer__image" style={{ background: story.imageGradient }}>
+      <div
+        className="story-viewer__image"
+        style={
+          story.imageUrl
+            ? {
+                backgroundImage: `url(${story.imageUrl})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }
+            : { background: story.imageGradient }
+        }
+      >
         <button className="story-viewer__tap story-viewer__tap--prev" onClick={goPrev} aria-label="Previous story" />
         <button className="story-viewer__tap story-viewer__tap--next" onClick={goNext} aria-label="Next story" />
 
