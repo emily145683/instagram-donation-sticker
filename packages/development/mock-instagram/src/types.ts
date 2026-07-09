@@ -30,6 +30,8 @@ export interface FeedPost {
   username: string;
   avatarGradient: string;
   imageGradient: string;
+  /** Optional photo list for carousel-style feed posts. */
+  imageUrls?: string[];
   caption: string;
   likes: number;
   timeAgo: string;
